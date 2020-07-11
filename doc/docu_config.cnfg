@@ -1,0 +1,14 @@
+file ../../fir32_petalinux/src/top_eclypse_v1_0.v
+file ../../fir32_petalinux/src/zmod_adc_driver_v1_0.v
+file ../../fir32_petalinux/src/zmod_dac_driver_v1_0.v
+file ../../fir32_petalinux/src/zmod_dac_driver_v1_1.v
+file ../../fir32_petalinux/src/cen_generator_v1_0.v
+file ../../fir32_petalinux/src/fir8_14b_v1_0.v
+file ../../fir32_petalinux/src/fir32_14b_v1_0.v
+file ../../fir32_petalinux/src/obufds_inst.v
+file ../../fir32_petalinux/src/signal_bram_reader_v1_0.v
+
+outputdir ../../fir32_petalinux/doc/
+
+wireandreg
+logo logo.png

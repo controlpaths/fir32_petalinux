@@ -9,7 +9,12 @@ Board file for EclypseZ7 can be found at Digilent's repository. (https://github.
 Project has a script associated to him. For create the project, init Vivado in tcl mode, and the execute the selected script.
 
 ```
-cd <project folder>/script/
+cd <project folder>/script/2020.1
+vivado -mode tcl -source ./fir32_plnx.tcl
+```
+or
+```
+cd <project folder>/script/2019.1
 vivado -mode tcl -source ./fir32_plnx.tcl
 ```
 ## Hardware configuration

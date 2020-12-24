@@ -21,14 +21,12 @@ set_property BOARD_PART digilentinc.com:eclypse-z7:part0:1.0 [current_project]
 
 ## Adding verilog files
 add_file [glob $srdDir/cen_generator_v1_0.v]
-add_file [glob $srdDir/fir32_14b_v1_0.v]
-add_file [glob $srdDir/fir32_14b_v1_0.v]
 add_file [glob $srdDir/obufds_inst.v]
 add_file [glob $srdDir/signal_bram_reader_v1_0.v]
 add_file [glob $srdDir/zmod_dac_driver_v1_1.v]
 
 ## Adding memory files
-add_file [glob ../memory_content/signal2.mem]
+add_file [glob ../../memory_content/signal2.mem]
 
 ## Adding constraints files
 read_xdc $xdcDir/eclypse_z7_dac_a_adc_b.xdc
@@ -41,7 +39,7 @@ set_property ip_repo_paths {../../ip_repo} [current_project]
 update_ip_catalog
 
 ## Configure block design through external file
-source ./bd/eclypsez7_fir_plnx_2020.tcl
+source ./bd/eclypsez7_fir_plnx_2020.1.tcl
 
 ## Regenerate block design layout
 regenerate_bd_layout

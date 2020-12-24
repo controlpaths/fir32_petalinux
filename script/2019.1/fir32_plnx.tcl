@@ -21,14 +21,12 @@ set_property BOARD_PART digilentinc.com:eclypse-z7:part0:1.0 [current_project]
 
 ## Adding verilog files
 add_file [glob $srcDir/cen_generator_v1_0.v]
-add_file [glob $srcDir/fir32_14b_v1_0.v]
-add_file [glob $srcDir/fir32_14b_v1_0.v]
 add_file [glob $srcDir/obufds_inst.v]
 add_file [glob $srcDir/signal_bram_reader_v1_0.v]
 add_file [glob $srcDir/zmod_dac_driver_v1_1.v]
 
 ## Adding memory files
-add_file [glob ../memory_content/signal2.mem]
+add_file [glob ../../memory_content/signal2.mem]
 
 ## Adding constraints files
 read_xdc $xdcDir/eclypse_z7_dac_a_adc_b.xdc

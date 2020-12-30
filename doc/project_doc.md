@@ -26,6 +26,10 @@ It's important to notice that this structure is valid if the width of the operat
 To create and AXi IP you can check my hackster.io project  
  https://www.hackster.io/pablotrujillojuan/designing-a-custom-axi-ip-on-vitis-a0ad06
 
+The  next image is corresponding with the structure of the AXI FIR Filter.
+
+![image](axi_ip_structure.png)
+
 ## AXI Addresses
 
 **AXI FIR Filter** Address: 0x43C00000  
